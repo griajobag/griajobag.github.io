@@ -102,7 +102,7 @@
                 <ul>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> -->
                   <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span>https://github.com/griajobag</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>WhatsApp:</strong> <span>+6281321798544</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>WhatsApp:</strong> <span>Please ask via email</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Denpasar, Bali, Indonesia</span></li>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> -->
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
@@ -362,9 +362,15 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-android">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <input type="text" hidden id="image" value="assets/img/portfolio/portfolio-1.jpg"/>
+              <input type="text" hidden id="title" value="Online Reservation"/>
+              <input type="text" hidden id="client" value="RS. Bhayangkara Denpasar"/>
+              <input type="text" hidden id="company" value="PT. Sanata System"/>
+              <input type="text" hidden id="desc" value="This project was developed by PT. Sanata System for its client RS. Bhayangkara Denpasar. This application will helps patiens to get health services."/>
+
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rumah Sakit Bhayangkara, Denpasar"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                <a  onclick="testJS('title','image','client','company','desc')" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -372,9 +378,14 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-ios">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <input type="text" hidden id="image2" value="assets/img/portfolio/portfolio-2.jpg"/>
+              <input type="text" hidden id="title2" value="anoMAN"/>
+              <input type="text" hidden id="client2" value="Udayana University"/>
+              <input type="text" hidden id="company2" value="PT. Sanata System"/>
+              <input type="text" hidden id="desc2" value="This project was developed by PT. Sanata System for its client Faculty of Doctor of Udayana University. This application will helps people to reporting if there any violation of covid19 health protocols."/>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App for reporting violation of covid19 health protocols"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                <a onclick="testJS('title2','image2','client2','company2','desc2')" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -382,9 +393,14 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-android">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <input type="text" hidden id="image3" value="assets/img/portfolio/portfolio-3.jpg"/>
+              <input type="text" hidden id="title3" value="Online Reservation"/>
+              <input type="text" hidden id="client3" value="Dharma Kerti Hospital, Tabanan"/>
+              <input type="text" hidden id="company3" value="PT. Sanata System"/>
+              <input type="text" hidden id="desc3" value="This project was developed by PT. Sanata System for its client Dharma Kerti Hospital, Tabanan. This application will helps patiens to get health services via mobile application."/>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Online Reservation owned by Dharma Kerti Hospital"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                <a onclick="testJS('title3','image3','client3','company3','desc3')" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -402,9 +418,14 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-ios">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <input type="text" hidden id="image5" value="assets/img/portfolio/portfolio-5.jpg"/>
+              <input type="text" hidden id="title5" value="Doctor's Application"/>
+              <input type="text" hidden id="client5" value="RSU. Bangli, Bali"/>
+              <input type="text" hidden id="company5" value="PT. Sanata System"/>
+              <input type="text" hidden id="desc5" value="This project was developed by PT. Sanata System for its client General Hospital of Bangli, Bali. This application special developed for doctors to check their schedules, their total patiens and also check their estimation"/>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Aplication for Doctor owned by RSU. Bangli"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                <a onclick="testJS('title5','image5','client5','company5','desc5')" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -412,19 +433,29 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-android">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <input type="text" hidden id="image6" value="assets/img/portfolio/portfolio-6.jpg"/>
+              <input type="text" hidden id="title6" value="Online Reservation"/>
+              <input type="text" hidden id="client6" value="RSU. Bangli, Bali"/>
+              <input type="text" hidden id="company6" value="PT. Sanata System"/>
+              <input type="text" hidden id="desc6" value="This project was developed by PT. Sanata System for its client General Hospital of Bangli, Bali. This application will helps patiens to get health services via mobile application both in Android and iOS."/>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Online Reservation owned by RSU. Bangli"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                <a onclick="testJS('title6','image6','client6','company6','desc6')" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-android">
             <div class="portfolio-wrap">
+              <input type="text" hidden id="image7" value="assets/img/portfolio/portfolio-7.jpg"/>
+              <input type="text" hidden id="title7" value="Online Reservation"/>
+              <input type="text" hidden id="client7" value="RS. Bhayangkara Denpasar"/>
+              <input type="text" hidden id="company7" value="PT. Sanata System"/>
+              <input type="text" hidden id="desc7" value="This project was developed by PT. Sanata System for its client Surya Husadha, Denpasar. This application will helps patiens to get health services via android application."/>
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Online Reservation owned by Surya Husadha Hospital"><i class="bx bx-plus"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
+                <a onclick="testJS('title7','image7','client7','company7','desc7')" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -613,7 +644,7 @@
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Whatsapp Only:</h4>
-                <p>+6281321798544</p>
+                <p>Please ask via email</p>
               </div>
 
             </div>
@@ -694,6 +725,22 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    function testJS(titleId, imageId, clientId, companyId, descId) {
+      var title = document.getElementById(titleId).value
+      var image = document.getElementById(imageId).value
+      var client = document.getElementById(clientId).value
+      var company = document.getElementById(companyId).value
+      var desc = document.getElementById(descId).value
+      url = 'portfolio-details.html'
+      localStorage.setItem("title",title)
+      localStorage.setItem("image",image)
+      localStorage.setItem("client",client)
+      localStorage.setItem("company",company)
+      localStorage.setItem("desc",desc)
+      document.location.href = url
+}
+  </script>
 
 </body>
 
