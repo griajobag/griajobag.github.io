@@ -366,6 +366,11 @@ section {
   margin-bottom: 0;
 }
 
+.imgradius{
+  border-radius: 10%;
+  height: 100%;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -451,7 +456,22 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+}
+
+.barorange {
+  background-color: #f7b448;
+}
+
+.bargreen {
+  background-color: #b7ce3e;
+}
+
+.baryellow {
+  background-color: #fcd548;
+}
+
+.bargreendark{
+  background-color: green;
 }
 
 /*--------------------------------------------------------------
